@@ -71,7 +71,7 @@
 				<div class="jumbotron">
 					<h1 class="text-uppercase">Web Dev Fundamentals</h1>
 					<p>Introduction &amp; Guideline</p>
-					<p><a class="btn btn-default btn-lg btn-info" href="#" role="button">Learn more</a></p>
+					<p><a class="btn btn-default btn-lg btn-info" href="#" data-toggle="modal" data-target=".note-modal-lg" role="button">Read note</a></p>
 					<span class="visual"></span>
 				</div>
 
@@ -132,6 +132,42 @@
 
 </section>
 <!-- Main Section Ends -->
+
+
+
+<!--BS Modal Wrapper Starts-->
+<div class="modal fade note-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+
+			<!--Modal Header Element-->
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				<h4 class="modal-title">Note Modal Testing</h4>
+			</div>
+
+			<!--Modal BODY-->
+			<div class="modal-body">
+				<p>This is the body content : (Current modal is using Small)</p>
+				<p>Modal has two optional size <br>modal-sm for 'small'<br>modal-lg for 'large'</p>
+				<hr>
+				<p>Seasonal foam a froth kopi-luwak skinny iced doppio. Medium mug filter seasonal cortado plunger pot, café au lait americano filter doppio cortado. Cinnamon extra, seasonal aftertaste, caffeine as wings irish beans.</p>
+				<p>Organic milk, spoon bar sweet aroma decaffeinated. Cup mocha variety americano in barista caramelization strong galão eu spoon java. Cream, instant, galão strong et java galão.</p>
+				<p>French press mug iced fair trade a so as aged. Acerbic, sweet, turkish whipped plunger pot french press mocha flavour aroma sugar half and half. Plunger pot rich milk variety acerbic roast rich.</p>
+				<hr>
+				<p>Eu froth, grounds spoon java spoon grinder. Chicory black filter cup, aromatic id saucer java affogato mazagran cup whipped. Carajillo cream aftertaste, decaffeinated beans java froth affogato.</p>
+			</div>
+
+			<!--Modal Footer-->
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				<!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+			</div>
+
+		</div>
+	</div>
+</div>
+<!--BS Modal Wrapper Ends-->
 
 
 <script src="vendors/jquery/dist/jquery.min.js" type="text/javascript"></script>
