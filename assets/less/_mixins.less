@@ -1,0 +1,49 @@
+// Mixin Functions and Class
+.transition( @values: all 0.2s ease ) {
+	-webkit-transition: @values; 
+	-moz-transition: @values;
+	-ms-transition: @values; 
+	-o-transition: @values; 
+	transition: @values;
+}
+
+.roundCorner( @radius: 5px) {
+	-webkit-border-radius: @radius;
+	border-radius: @radius;
+}
+
+.boxShadow( @values: 0 0 2px rgba(0,0,0,0.5) ){
+	-webkit-box-shadow: @values; 
+	-moz-box-shadow: @values;  
+	-o-box-shadow: @values;  
+	-ms-box-shadow: @values;  
+	box-shadow: @values;  
+}
+
+.dropShadow( @values: 0 0 2px rgba(0,0,0,0.5) ){
+	-webkit-box-shadow: @values; 
+	-moz-box-shadow: @values;  
+	-o-box-shadow: @values;  
+	-ms-box-shadow: @values;  
+	box-shadow: @values;  
+}
+
+.transform( @effects: scale(1) ) {
+	-webkit-transform : @effects;
+	-moz-transform : @effects;
+	-o-transform : @effects;
+	-ms-transform : @effects;
+	transform : @effects;
+}
+
+.columnWidth( @column: 1 ){
+	width : 100% / @column;
+}
+
+.backgroundSize( @value: auto auto ){
+	-webkit-background-size: @value; 
+	-moz-background-size: @value; 
+	-o-background-size: @value; 
+	-ms-background-size: @value; 
+	background-size: @value; 
+}
