@@ -21,9 +21,13 @@ var DOM = {
 			'data-sb-width' : scrollBarWidth
 		});
 
+		// Disabled original A behavior
 		$('A').on('click', function(e){
 			e.preventDefault();
 		});
+
+		// Init for Bootstrap Popover feature
+		$('[data-toggle="popover"]').popover();
 
 	}
 }

@@ -1,4 +1,6 @@
 @charset "UTF-8";
+/* Bootstrap Overwrite Starts */
+/* Bootstrap Overwrite Ends */
 BODY {
   font-family: Helvetica, Arial, Verdana, sans-serif;
 }
@@ -113,6 +115,13 @@ BODY {
   padding: 25px 0;
   padding-top: 70px;
   background-color: #EEE;
+}
+.note-modal-lg .input-group {
+  width: 100%;
+}
+.note-modal-lg .input-group-addon {
+  width: 40px;
+  border-right: none;
 }
 @media screen and (max-width: 768px) {
   /* Site Header */
