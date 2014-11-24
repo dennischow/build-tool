@@ -1,7 +1,7 @@
-build-tool-experiment
+build-tool
 ======================
 
-# Build Tool Experitment 
+# Build Tool Adventure
 I have started trying the gulp.js (front-end build tool). Welcome to give me some advises.
 
 ## Change Log 
