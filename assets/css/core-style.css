@@ -1,8 +1,12 @@
 @charset "UTF-8";
 /* Bootstrap Overwrite Starts */
+.btn[class*="btn-"] {
+  min-width: 120px;
+}
 /* Bootstrap Overwrite Ends */
 BODY {
   font-family: Helvetica, Arial, Verdana, sans-serif;
+  overflow-y: scroll;
 }
 /* Common Class */
 .bg-color-lightgrey {
@@ -101,7 +105,6 @@ BODY {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url('../images/Galaxy.jpg');
 }
 .jumbotron H1 {
   font-family: 'Arvo', serif;
@@ -111,10 +114,17 @@ BODY {
   color: white;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
 }
-.introduction {
+.introduction,
+.news {
   padding: 25px 0;
   padding-top: 70px;
   background-color: #EEE;
+}
+.introduction .visual {
+  background-image: url('../images/Galaxy.jpg');
+}
+.news .visual {
+  background-image: url('../images/tech.jpg');
 }
 .note-modal-lg .input-group {
   width: 100%;

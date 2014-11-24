@@ -1,5 +1,10 @@
 /* Bootstrap Overwrite Starts */
 
+// Button 
+.btn[class*="btn-"] {
+	min-width: 120px;
+}
+
 // Popover 
 .popover {
 
@@ -20,6 +25,7 @@
 BODY {
 	// padding-top: 70px;
 	font-family: @baseFont;
+	overflow-y: scroll;
 }
 
 /* Common Class */
@@ -165,8 +171,6 @@ BODY {
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
-		background-image: url('../images/Galaxy.jpg');
-
 	}
 
 	H1 {
@@ -180,7 +184,7 @@ BODY {
 
 }
 
-.introduction {
+.introduction, .news {
 	
 	padding: 25px 0;
 	padding-top: 70px;
@@ -193,6 +197,38 @@ BODY {
 
 }
 
+.introduction {
+
+	.visual {
+		background-image: url('../images/Galaxy.jpg');
+	}
+
+}
+
+.news {
+
+	.visual {
+		background-image: url('../images/tech.jpg');
+	}
+
+	.button-container {
+		// text-align: center;
+	}
+
+	.thumbnail {
+
+		
+		.caption {
+			
+		}
+
+		.button-container {
+		
+		}
+
+	}
+
+}
 
 
 .note-modal-lg {
