@@ -29,7 +29,7 @@ var DOM = {
 		// Init for Bootstrap Popover feature
 		$('[data-toggle="popover"]').popover();
 
-		$('.btn.btn-info').on('click',function(e){
+		$('.btn.btn-info').on('click', function(e){
 			// alert('Hello');
 		});
 
